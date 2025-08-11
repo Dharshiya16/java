@@ -1,0 +1,22 @@
+public class assignment {
+
+	public static void main(String[] args) {
+		int num=5;
+		int num2=6;
+		int num3=3;
+		int num4=8;
+		int num5=4;
+		num+=3;
+		num2-=3;
+		num3*=3;
+		num4/=4;
+		num5%=2;
+		System.out.println(num);
+		System.out.println(num2);
+		System.out.println(num3);
+		System.out.println(num4);
+		System.out.println(num5);
+
+
+	}
+
