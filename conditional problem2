@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+
+public class problem2 {
+	public static void main (String arge[]) {
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		System.out.println(num);
+		if(num%3==0 && num%5==0) {
+			System.out.println("FIZZ BIZZ");
+		}
+		else if(num%3==0 ) {
+			System.out.println("FIZZ");
+		}
+			else{
+				System.out.println("BIZZ");
+			}
+		}
+	}
+
+
