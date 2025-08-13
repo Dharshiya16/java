@@ -1,0 +1,18 @@
+public class problem1 {
+	int rollno=55;
+	String name="dharsh";
+	String collegename="MZ";
+	void display(int a,String name) {
+		System.out.println(a+" "+name+" "+collegename+" ");
+	}
+	public static void main(String[] args) {
+		problem1 obj=new problem1();
+		obj.display(001, "dharshh");
+		obj.display(002, "ragavi");
+		obj.display(003, "sobana");
+		obj.display(004, "afrin");
+		obj.display(005, "sasi");
+		obj.display(006, "rithi");
+			}
+
+}
