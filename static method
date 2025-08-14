@@ -1,0 +1,27 @@
+
+public class trip {
+	String place="Kerala";
+	String spot1="1.Munnar";
+	String spot2="2.kovalam";
+	String spot3="3.Vayanad";
+	String spot4="4.Varkala";
+	String spot5="5.Periyar wildlife santuary";
+	
+	public static void main(String[] args) {
+		trip obj=new trip();
+		System.out.println("PLACE: "+obj.place);
+		System.out.println("VISITING SPOTS:");
+		trip obj1=new trip();
+		System.out.println(obj1.spot1);
+		trip obj2=new trip();
+		System.out.println(obj2.spot2);
+		trip obj3=new trip();
+		System.out.println(obj3.spot3);
+		trip obj4=new trip();
+		System.out.println(obj4.spot4);
+		trip obj5=new trip();
+		System.out.println(obj5.spot5);
+
+	}
+
+}
