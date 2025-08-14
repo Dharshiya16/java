@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String var=sc.nextLine();
+        StringBuffer sb=new StringBuffer(var);
+        StringBuffer c=sb.reverse();
+        String d=c.toString();       
+       if(d.equals(var)) 
+       {
+             System.out.println("Palindrome Revelation! The string is a palindrome.");
+        }
+        else
+        {
+            System.out.println("Palindromic Mystery Unsolved! The string is not a palindrome.");
+        }
+       
+    }
+}
